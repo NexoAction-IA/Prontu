@@ -142,7 +142,7 @@ function Hero() {
           <span className="text-green-600">trabalha com você</span>
         </h1>
         <p className="text-lg sm:text-xl text-green-800/80 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Gestão de pacientes com IA para fonoaudiólogos. Evoluções organizadas, relatórios gerados em segundos e documentos centralizados — tudo em um só lugar.
+          Gestão de pacientes com IA para fonoaudiólogos. Evoluções organizadas, relatórios gerados em segundos e documentos centralizados. Tudo em um só lugar.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
@@ -206,7 +206,7 @@ function Features() {
         </svg>
       ),
       title: 'Evoluções organizadas',
-      desc: 'Registre cada sessão com estrutura clínica completa. Histórico por paciente, por data e por clínica — sempre acessível.',
+      desc: 'Registre cada sessão com estrutura clínica completa. Histórico por paciente, por data e por clínica, sempre acessível.',
     },
     {
       icon: (
@@ -224,7 +224,7 @@ function Features() {
         </svg>
       ),
       title: 'Documentos centralizados',
-      desc: 'Anamneses, avaliações, PEIs e relatórios externos — tudo indexado e pesquisável. A IA lê os documentos e os incorpora no contexto clínico.',
+      desc: 'Anamneses, avaliações, PEIs e relatórios externos. Tudo indexado e pesquisável. A IA lê os documentos e os incorpora no contexto clínico.',
     },
     {
       icon: (
@@ -251,7 +251,7 @@ function Features() {
         </svg>
       ),
       title: 'PDF profissional',
-      desc: 'Exporte relatórios com o papel timbrado da sua clínica — logo, dados de contato e formatação clínica. Pronto para entregar.',
+      desc: 'Exporte relatórios com o papel timbrado da sua clínica: logo, dados de contato e formatação clínica. Pronto para entregar.',
     },
   ]
 
@@ -352,7 +352,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
         <img src="/logo.webp" alt="Prontu" className="h-7 w-auto opacity-80" />
         <p className="text-sm text-gray-400">
-          Sistema de prontuário eletrônico para fonoaudiólogos — useprontu.com
+          Sistema de prontuário eletrônico para fonoaudiólogos. useprontu.com
         </p>
         <div className="flex gap-5 text-sm text-gray-400">
           <Link href="/login" className="hover:text-green-600 transition-colors cursor-pointer">Entrar</Link>
