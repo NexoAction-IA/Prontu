@@ -15,7 +15,7 @@ export default function NavUser({ email }: { email: string }) {
       process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!
     )
     await supabase.auth.signOut()
-    router.push('/login')
+    router.push('/')
   }
 
   const inicial = email?.[0]?.toUpperCase() ?? 'U'
