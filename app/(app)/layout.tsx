@@ -9,9 +9,9 @@ export default async function AppLayout({ children }: { children: React.ReactNod
   return (
     <div className="min-h-full" style={{ background: '#f0fdf4' }}>
       <nav className="bg-white border-b border-green-100 px-6 py-0 sticky top-0 z-30 shadow-sm">
-        <div className="max-w-5xl mx-auto flex items-center justify-between h-16">
+        <div className="max-w-5xl mx-auto flex items-center justify-between h-40">
           <a href="/dashboard" className="flex items-center cursor-pointer">
-            <img src={LOGO_SRC} alt="Prontu" className="h-10 w-auto" />
+            <img src={LOGO_SRC} alt="Prontu" className="h-36 w-auto" />
           </a>
           <NavUser email={user?.email ?? ''} />
         </div>
