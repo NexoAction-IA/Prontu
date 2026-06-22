@@ -103,8 +103,8 @@ function Nav() {
         boxShadow: scrolled ? '0 1px 20px rgba(0,0,0,0.06)' : 'none',
       }}
     >
-      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <img src={LOGO_SRC} alt="Prontu" className="h-20 w-auto" />
+      <div className="max-w-6xl mx-auto px-6 h-40 flex items-center justify-between">
+        <img src={LOGO_SRC} alt="Prontu" className="h-36 w-auto" />
         <div className="flex items-center gap-3">
           <Link
             href="/login"
