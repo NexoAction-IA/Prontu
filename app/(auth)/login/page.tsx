@@ -3,6 +3,7 @@
 import { createBrowserClient } from '@supabase/ssr'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
+import { LOGO_SRC } from '@/lib/logo-b64'
 
 export default function LoginPage() {
   const router = useRouter()
@@ -65,7 +66,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md relative z-10">
         {/* Logo */}
         <div className="flex flex-col items-center mb-8">
-          <img src="/logo.png" alt="Prontu" className="h-12 w-auto mb-2" />
+          <img src={LOGO_SRC} alt="Prontu" className="h-12 w-auto mb-2" />
           <p className="text-gray-500 text-sm mt-1">Entre na sua conta para continuar</p>
         </div>
 
