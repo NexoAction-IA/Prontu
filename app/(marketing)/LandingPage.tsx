@@ -104,7 +104,7 @@ function Nav() {
       }}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <img src={LOGO_SRC} alt="Prontu" className="h-14 w-auto" />
+        <img src={LOGO_SRC} alt="Prontu" className="h-20 w-auto" />
         <div className="flex items-center gap-3">
           <Link
             href="/login"
