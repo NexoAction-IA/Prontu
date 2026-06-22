@@ -103,8 +103,8 @@ function Nav() {
         boxShadow: scrolled ? '0 1px 20px rgba(0,0,0,0.06)' : 'none',
       }}
     >
-      <div className="max-w-6xl mx-auto px-6 h-40 flex items-center justify-between">
-        <img src={LOGO_SRC} alt="Prontu" className="h-36 w-auto" />
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 sm:h-18 flex items-center justify-between">
+        <img src={LOGO_SRC} alt="Prontu" className="h-9 sm:h-11 w-auto" />
         <div className="flex items-center gap-3">
           <Link
             href="/login"
@@ -129,7 +129,7 @@ function Hero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden" style={{ background: 'linear-gradient(145deg, #f0fdf4 0%, #dcfce7 50%, #bbf7d0 100%)' }}>
       <ParticleCanvas className="absolute inset-0" />
-      <div className="relative z-10 max-w-6xl mx-auto px-6 pt-24 pb-20 text-center w-full">
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 pt-20 pb-20 text-center w-full">
         <div className="inline-flex items-center gap-2 bg-white/80 border border-green-200 text-green-700 text-xs font-semibold px-4 py-1.5 rounded-full mb-8 shadow-sm backdrop-blur-sm">
           <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse inline-block" />
           Sistema clínico com Inteligência Artificial
