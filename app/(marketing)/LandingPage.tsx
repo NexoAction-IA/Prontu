@@ -104,7 +104,7 @@ function Nav() {
       }}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <img src={LOGO_SRC} alt="Prontu" className="h-9 w-auto" />
+        <img src={LOGO_SRC} alt="Prontu" className="h-14 w-auto" />
         <div className="flex items-center gap-3">
           <Link
             href="/login"
@@ -351,7 +351,7 @@ function Footer() {
   return (
     <footer className="bg-white border-t border-green-50 py-10">
       <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <img src={LOGO_SRC} alt="Prontu" className="h-7 w-auto opacity-80" />
+        <img src={LOGO_SRC} alt="Prontu" className="h-10 w-auto opacity-80" />
         <p className="text-sm text-gray-400">
           Sistema de prontuário eletrônico para fonoaudiólogos. useprontu.com
         </p>
