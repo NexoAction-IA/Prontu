@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 
 /* ─── Particle Canvas ─── */
@@ -104,7 +103,7 @@ function Nav() {
       }}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Image src="/logo.webp" alt="Prontu" width={140} height={58} priority className="h-9 w-auto" />
+        <img src="/logo.webp" alt="Prontu" className="h-9 w-auto" />
         <div className="flex items-center gap-3">
           <Link
             href="/login"
@@ -351,7 +350,7 @@ function Footer() {
   return (
     <footer className="bg-white border-t border-green-50 py-10">
       <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <Image src="/logo.webp" alt="Prontu" width={110} height={46} className="h-7 w-auto opacity-80" />
+        <img src="/logo.webp" alt="Prontu" className="h-7 w-auto opacity-80" />
         <p className="text-sm text-gray-400">
           Sistema de prontuário eletrônico para fonoaudiólogos — useprontu.com
         </p>

@@ -3,7 +3,6 @@
 import { createBrowserClient } from '@supabase/ssr'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
-import Image from 'next/image'
 
 export default function LoginPage() {
   const router = useRouter()
@@ -66,7 +65,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md relative z-10">
         {/* Logo */}
         <div className="flex flex-col items-center mb-8">
-          <Image src="/logo.webp" alt="Prontu" width={180} height={75} className="h-12 w-auto mb-2" />
+          <img src="/logo.webp" alt="Prontu" className="h-12 w-auto mb-2" />
           <p className="text-gray-500 text-sm mt-1">Entre na sua conta para continuar</p>
         </div>
 
